@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1> Vibur Mburu</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="bio">
+        <h2>Bio - About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec dui vel nulla tempor varius.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Project 1</p>
+        <p>Project 2</p>
+        <p>Project 3</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:mburu@Vibur.com" target="_top">mburu@Vibur.com</a></p>
+        <p>Social: <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>, 
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
+    </section>    
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2022 Vibur Mburu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
