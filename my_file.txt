@@ -1,0 +1,5 @@
+this is my file handling assignment
+today is 04_03_024 day 365
+even months include: feb, april
+this is not as easy as it seemed
+getting better each linefinaly it is done
